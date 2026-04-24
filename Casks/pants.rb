@@ -1,5 +1,5 @@
 cask "pants" do
-  version "0.13.2"
+  version "0.13.3"
   sha256 "a6f3231413ca1f793caffa621171a4b1a0158e7488cd0b5bb3e742cb99cc72a8"
 
   url "https://github.com/pantsbuild/scie-pants/releases/download/v#{version}/scie-pants-macos-aarch64",
