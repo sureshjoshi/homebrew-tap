@@ -21,9 +21,9 @@ cask "pants" do
   end
 
   postflight do
-    if Quarantine.available?
+    # if Quarantine.available?
       Quarantine.release!(download_path: caskroom_path.join(version,
                                                             "scie-pants-macos-aarch64"))
-    end
+    # end
   end
 end
